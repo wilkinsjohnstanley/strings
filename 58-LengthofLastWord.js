@@ -11,8 +11,10 @@
  * 
  */
 const lengthOfLastWord = function(s) {
-    // Trim the string to remove leading and trailing spaces
-    s = s.trim();
+    // Trim the string to remove line terminators, as well as the spaces
+    console.log(s)
+    s = s.trim(); 
+    console.log(s.trim())
     
     // Find the index of the last space
     const lastSpaceIndex = s.lastIndexOf(' ');
@@ -27,5 +29,5 @@ const lengthOfLastWord = function(s) {
 };
 
 // Example usage
-console.log(lengthOfLastWord("Hello World")); // Output: 5
-console.log(lengthOfLastWord("   fly me   to   the moon  ")); // Output: 4
+console.log(lengthOfLastWord("Hello,, World.")); // Output: 5
+console.log(lengthOfLastWord("   ...fly me   to   the moon  ")); // Output: 4
