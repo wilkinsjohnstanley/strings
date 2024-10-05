@@ -11,7 +11,8 @@ Explanation: The last word is "World" with length 5. */
 const lengthOfTheLastWord = function(string){
     let sentence = string
     .trim()
-    .split(" ") //a sentence would be the string split on a space
+    .split(" ") 
+    
     console.log("The sentence array itself is: " + sentence)
     console.log("The length of the string array is: " + sentence.length)
     let lastWord = sentence.length - 1 
