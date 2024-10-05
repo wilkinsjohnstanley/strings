@@ -8,13 +8,15 @@ Example 1:
 Input: s = "Hello World"
 Output: 5
 Explanation: The last word is "World" with length 5. */
+
+
+
 const lengthOfTheLastWord = function(string){
     let sentence = string
-    .trim()
+    //.trim()
     .split(" ") 
     
     console.log("The sentence array itself is: " + sentence)
-    console.log("The length of the string array is: " + sentence.length)
     let lastWord = sentence.length - 1 
     return sentence[lastWord].length 
 }
