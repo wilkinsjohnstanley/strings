@@ -13,10 +13,11 @@ const lengthOfTheLastWord = function(string){
     .trim()
     .split(" ") //a sentence would be the string split on a space
     
-    //console.log(sentence)
-    let lastWord = sentence.length - 1 //lastWord is the index of the last word
-    return sentence[lastWord].length //use it to access the last word from the string array
-    //console.log(lastWord) 
+   console.log("The length of the string array is: " + sentence.length)
+    let lastWord = sentence.length - 1 
+    return sentence[lastWord].length 
+
 
 }
-console.log(lengthOfTheLastWord("   fly me   to   the moon  "))
+console.log(lengthOfTheLastWord("Hello World")) // 5
+console.log(lengthOfTheLastWord("   fly me   to   the moon  ")) // 4
