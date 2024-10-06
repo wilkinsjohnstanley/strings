@@ -1,8 +1,9 @@
 --Easy String Problems--
+
 13. Roman to Integer
 *14. Longest Common Prefix
 20. Valid Parentheses
-28. Find the index of the first occurrence in a string
+*28. Find the index of the first occurrence in a string
 *58. Length of Last Word
 67. Add Binary
 *125. Valid Palindrome
