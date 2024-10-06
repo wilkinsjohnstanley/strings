@@ -1,22 +1,22 @@
 --Easy String Problems--
 13. Roman to Integer
-14. Longest Common Prefix
+*14. Longest Common Prefix
 20. Valid Parentheses
 28. Find the index of the first occurrence in a string
-58. Length of Last Word
+*58. Length of Last Word
 67. Add Binary
-125. Valid Palindrome
+*125. Valid Palindrome
 168. Excel Sheet Column Title
 171. Excel Sheet Column Number
 205. Isomorphic Strings
-242. Valid Anagram
+*242. Valid Anagram
 243. Shortest Word Distance
 246. Strobogrammatic Number
 257. Binary Tree Paths.
 266. Palindrome Permutation.
 290. Word Pattern
 293. Flip Game
-344. Reverse String
+*344. Reverse String
 345. Reverse Vowels of a string
 383. Ransom Note
 387. First Unique Character in a String
